@@ -3,7 +3,6 @@ body{
   min-height: 100vh;
   display: flex; 
   flex-direction: column;
-
 }
 
 img{
@@ -13,7 +12,6 @@ img{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  
 }
 
 h1 {
@@ -22,14 +20,12 @@ h1 {
 
 h2 {
   font-size: 30px;
-  
 }
 
 h1, h2 {
   text-align: center;
   font-family: Impact, serif;
   margin-bottom: 15px;
-
 }
 
 p {
@@ -55,12 +51,11 @@ font-size: 20px;
   object-fit: cover;
   border-radius: 10px;
   text-align: center;
-  
 }
 
 .gallery::after {
   content: "";
-  width: 300px;
+  width: 350px;
 }
 
 figure {
