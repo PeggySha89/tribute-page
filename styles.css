@@ -1,0 +1,115 @@
+body{
+  background-color: #CBC3E3;
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;
+
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: Impact, serif;
+  margin-bottom: 15px;
+
+}
+
+p {
+font-family: Herculanum, serif;
+font-weight: bold;
+font-size: 20px;
+}
+
+.gallery {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  float: left;
+  width: 33.33%;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.gallery::after {
+  content: "";
+  width: 300px;
+}
+
+figure {
+      display: block;
+      margin: 25;
+      padding: 9;
+      
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   }
+
+figcaption {
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+   width: 100%;
+   color: black;
+   text-align: center;
+  display: flex;
+  justify-content: center;
+   margin-bottom: 5px;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: purple;
+}
+
+#footer {
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
