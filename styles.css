@@ -3,6 +3,7 @@ body{
   min-height: 100vh;
   display: flex; 
   flex-direction: column;
+
 }
 
 img{
@@ -12,6 +13,7 @@ img{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  
 }
 
 h1 {
@@ -20,12 +22,14 @@ h1 {
 
 h2 {
   font-size: 30px;
+  
 }
 
 h1, h2 {
   text-align: center;
   font-family: Impact, serif;
   margin-bottom: 15px;
+
 }
 
 p {
@@ -47,7 +51,7 @@ font-size: 20px;
 .gallery img {
   width: 100%;
   max-width: 350px;
-  height: 300px;
+  height: 250px;
   object-fit: cover;
   border-radius: 10px;
   text-align: center;
@@ -60,7 +64,7 @@ font-size: 20px;
 
 figure {
   display: block;
-  margin: 35;
+  margin: 10;
   padding: 9;   
   margin-left: auto;
   margin-right: auto;
@@ -70,7 +74,7 @@ figure {
 figcaption {
   color: black;
   font-style: italic;
-  padding: 6px;
+  padding: 7px;
   text-align: center;
 }
 
